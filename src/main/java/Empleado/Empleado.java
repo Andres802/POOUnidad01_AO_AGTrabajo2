@@ -37,8 +37,10 @@ public class Empleado {
         if (this.horasTrabajadas > 160) {
 
             var hora = this.costoHora * this.costoHora;
+            var extra = this.horasTrabajadas - 160;
 
-            retorno = hora * this.horasTrabajadas;
+            
+            retorno = hora * extra;
 
         } else {
 
@@ -55,13 +57,13 @@ public class Empleado {
         if (0 == limite1) {
             retorno = 0;
         } else {
-            if (limite1 > limite2) {
+            if (impuesto >limite1 && impuesto< limite2) {
                 retorno = impuesto * 0.5;
             } else {
-                if (limite2 > limite3) {
+                if (impuesto >limite2 && impuesto< limite3) {
                     retorno = impuesto * 0.12;
                 } else {
-                    if (limite3 > limite2) {
+                    if (limite3 < impuesto) {
                         retorno = impuesto * 0.25;
                     } else {
 

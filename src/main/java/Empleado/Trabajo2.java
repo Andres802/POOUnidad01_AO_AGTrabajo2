@@ -26,8 +26,8 @@ public class Trabajo2 {
         System.out.println("-" + emple.mostrarInfo());
         System.out.println("- Su ingreso basico es: " + emple.calcularIngreso(2010) +" $");
         System.out.println("- Su bono de horas extras es: " + emple.calcularBonoHoras() + " $");
-        System.out.println("-su pago de impuesto es: " + emple.calcularImpuesto(23, 0, 13) + " $");
-        System.out.println("- El calculo total del empleado es: " + emple.calcularTotal(23, 0, 13, 2010) + " $");
+        System.out.println("-su pago de impuesto es: " + emple.calcularImpuesto(500, 950, 1000) + " $");
+        System.out.println("- El calculo total del empleado es: " + emple.calcularTotal(500, 900, 1000, 2010) + " $");
         
         
         System.out.println("---------------------  2. Segundo Empleado --------------------- ");
@@ -41,8 +41,8 @@ public class Trabajo2 {
         System.out.println("-" + emple1.mostrarInfo());
         System.out.println("- Su ingreso basico es: " + emple1.calcularIngreso(2022) +" $");
         System.out.println("- Su bono de horas extras es: " + emple1.calcularBonoHoras() + " $");
-        System.out.println("-su pago de impuesto es: " + emple1.calcularImpuesto(1, 20, 13) + " $");
-        System.out.println("- El calculo total del empleado es: " + emple1.calcularTotal(1, 20, 13, 2022) + " $");
+        System.out.println("-su pago de impuesto es: " + emple1.calcularImpuesto(500, 900, 1000) + " $");
+        System.out.println("- El calculo total del empleado es: " + emple1.calcularTotal(500, 900, 1000, 2022) + " $");
         
         
         System.out.println("---------------------  3. Tercer Empleado --------------------- ");
@@ -56,7 +56,7 @@ public class Trabajo2 {
         System.out.println("-" + emple2.mostrarInfo());
         System.out.println("- Su ingreso basico es: " + emple2.calcularIngreso(2015) +" $");
         System.out.println("- Su bono de horas extras es: " + emple2.calcularBonoHoras() + " $");
-        System.out.println("-su pago de impuesto es: " + emple2.calcularImpuesto(1, 0, 23) + " $");
-        System.out.println("- El calculo total del empleado es: " + emple2.calcularTotal(1, 0, 23, 2015) + " $");
+        System.out.println("-su pago de impuesto es: " + emple2.calcularImpuesto(500, 950, 1000) + " $");
+        System.out.println("- El calculo total del empleado es: " + emple2.calcularTotal(500, 950, 1000, 2015) + " $");
     }
 }
